@@ -1,0 +1,28 @@
+.menu_gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+@media (min-width: 750px) {
+  .menu_gallery {
+    flex-direction: row;
+  }
+}
+.card_wrapper {
+  margin: 10px 10px;
+  background-color: whitesmoke;
+}
+.nav_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
