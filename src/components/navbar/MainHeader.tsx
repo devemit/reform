@@ -22,17 +22,11 @@ const MainHeader = () => {
         <Link className='link home' to='/'>
           <li>Home</li>
         </Link>
-        <Link className='link' to='/'>
-          <li>About</li>
-        </Link>
         <Link className='link' to='/gallery'>
           <li>Gallery</li>
         </Link>
         <Link className='link' to='/menu'>
           <li>Menu</li>
-        </Link>
-        <Link className='link' to='/'>
-          <li>Contact</li>
         </Link>
       </ul>
     </nav>

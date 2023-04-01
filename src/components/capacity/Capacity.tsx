@@ -9,7 +9,7 @@ const Capacity = () => {
   }, []);
 
   return (
-    <div className='capacity_container'>
+    <div id='capacity' className='capacity_container'>
       <div className='title_wrapper'>
         <span className='title'>Reform Numbers</span>
       </div>

@@ -1,9 +1,14 @@
-import React from 'react';
+import cards from './cards';
+import CardItem from './CardItem';
 
-type Props = {};
-
-const Drinks = (props: Props) => {
-  return <div>drinks page</div>;
+const Drinks = () => {
+  return (
+    <div className='card_grid'>
+      {cards.map((el) => (
+        <CardItem key={el.title} title={el.title} img={el.img} link={el.link} />
+      ))}
+    </div>
+  );
 };
 
 export default Drinks;

@@ -2,10 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: var(--blue);
   text-transform: uppercase;
   font-style: italic;
+  text-align: center;
+  padding: 2rem;
 }
 .gallery_grid {
   width: 100%;
@@ -18,6 +20,7 @@
   padding: 2rem;
   background-color: whitesmoke;
 }
+
 .zoom {
   width: 100%;
   height: 100%;
@@ -33,6 +36,9 @@
 @media (min-width: 600px) {
   .gallery_grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery_title {
+    font-size: 2rem;
   }
 }
 

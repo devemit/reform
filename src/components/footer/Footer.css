@@ -58,19 +58,13 @@
   cursor: pointer;
   color: var(--gold);
 }
-
-.footer_btn {
-  width: 100%;
-  padding: 0.6rem;
-  background-color: var(--gold);
-  cursor: pointer;
-  border: none;
-  outline: none;
-  color: white;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  transition: transform 0.2s;
+.icon {
+  color: var(--gold);
 }
+.icon:hover {
+  transform: scale(1.1);
+}
+
 .copyright {
   position: absolute;
   z-index: 20;

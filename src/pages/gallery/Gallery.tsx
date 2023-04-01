@@ -17,7 +17,7 @@ const Gallery = () => {
   return (
     <>
       <div className='gallery_title'>
-        <h1>The Beach Bar Photo Gallery</h1>
+        <h1 className='gal_title'>The Beach Bar Photo Gallery</h1>
       </div>
       <div className='gallery_grid'>
         {data?.map((image: any) => (

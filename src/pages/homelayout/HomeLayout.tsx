@@ -2,7 +2,7 @@ import VideoComponent from '../../components/video/VideoComponent';
 import Capacity from '../../components/capacity/Capacity';
 import Events from '../../components/events/Events';
 import { Link } from 'react-router-dom';
-import '../../styles/HomeLayout.css';
+import './HomeLayout.css';
 
 type Props = {};
 
