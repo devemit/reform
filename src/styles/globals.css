@@ -15,7 +15,8 @@
 html,
 body {
   overflow-x: hidden;
-
+  padding-top: 95px;
+  /*  fixed navbar problems*/
   /*  removing white space on mobile from the right side */
 }
 

@@ -1,13 +1,13 @@
 import '../../styles/Table.css';
 import ButtonBack from '../../components/ButtonBack/ButtonBack';
-type Props = {};
+import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 
-const Wines = (props: Props) => {
+const Wines = () => {
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
-        <ButtonBack />
-        <h1 style={{ fontWeight: 'bold', cursor: 'pointer' }}>Вино/Wine</h1>
+        <ButtonBack link={'/menu/drinks'} />
+        <DrinktsTitle label={'Вино/Wine'} />
       </div>
       <table>
         <tr>

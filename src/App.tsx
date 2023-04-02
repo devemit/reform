@@ -5,7 +5,6 @@ import Footer from './components/footer/Footer';
 import HomeLayout from './pages/homelayout/HomeLayout';
 import Foods from './pages/foods/Foods';
 import Drinks from './pages/drinks/Drinks';
-import { Route, Routes } from 'react-router-dom';
 import Coffees from './pages/drinks/Coffees';
 import Alcohol from './pages/drinks/Alcohol';
 import Coctails from './pages/drinks/Coctails';
@@ -13,6 +12,7 @@ import Juices from './pages/drinks/Juices';
 import Beers from './pages/drinks/Beers';
 import Wines from './pages/drinks/Wines';
 import Waters from './pages/drinks/Waters';
+import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (

@@ -1,4 +1,5 @@
 import ButtonBack from '../../components/ButtonBack/ButtonBack';
+import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import '../../styles/Table.css';
 
 const Alcohol = () => {
@@ -12,8 +13,8 @@ const Alcohol = () => {
             alignItems: 'center',
           }}
         >
-          <ButtonBack />
-          <h1  style={{ fontWeight: 'bold', cursor: 'pointer' }}>Алкохол/Alcohol</h1>
+          <ButtonBack link={'/menu/drinks'} />
+          <DrinktsTitle label={'Алкохол/Alcohol'} />
         </div>
         <table>
           <tr>

@@ -1,12 +1,12 @@
 import './Footer.css';
 import { AiFillInstagram, AiFillFacebook } from 'react-icons/ai';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div id='footer' className='footer'>
-      <img
+      <LazyLoadImage
         src='https://images.pexels.com/photos/2132008/pexels-photo-2132008.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
         alt='footer_img'
         className='footer_img'

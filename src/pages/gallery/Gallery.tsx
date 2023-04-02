@@ -1,5 +1,7 @@
 import './Gallery.css';
 import { useState, useEffect } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 const Gallery = () => {
   const [data, setData] = useState<any>();
 
@@ -21,7 +23,14 @@ const Gallery = () => {
       </div>
       <div className='gallery_grid'>
         {data?.map((image: any) => (
-          <img className='zoom' key={image.id} src={image.imgurl} alt='image' />
+          <LazyLoadImage
+            className='zoom'
+            key={image.id}
+            src={image.imgurl}
+            alt='image'
+            effect='blur'
+            loading='lazy'
+          />
         ))}
       </div>
     </>

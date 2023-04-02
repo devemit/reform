@@ -1,12 +1,13 @@
 import ButtonBack from '../../components/ButtonBack/ButtonBack';
+import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import '../../styles/Table.css';
 const Coffees = () => {
   return (
     <>
       <div className='table'>
         <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
-          <ButtonBack />
-          <h1 style={{ fontWeight: 'bold', cursor: 'pointer' }}>Кафе/Coffee</h1>
+          <ButtonBack  link={'/menu/drinks'} />
+          <DrinktsTitle label={'Кафе/Coffee'} />
         </div>
         <table>
           <tr>

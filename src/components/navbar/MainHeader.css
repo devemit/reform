@@ -2,8 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 12rem;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
 .navbar__title {
   display: flex;
   flex-direction: column;

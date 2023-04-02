@@ -32,7 +32,7 @@
 
 .fullcap {
   visibility: none;
-  opacity: 0;
+  opacity: 0.3;
   transition: opacity 0.3s;
 }
 .fullwrap:hover .fullcap {

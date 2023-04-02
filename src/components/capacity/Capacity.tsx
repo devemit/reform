@@ -2,11 +2,19 @@ import './Capacity.css';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import CapacityInfo from './CapacityInfo';
 
 const Capacity = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+
+  const items = [
+    { imgUrl: 'water.png', desc: '500m', title: 'Beach' },
+    { imgUrl: 'parking.png', desc: '100', title: 'Parking Spots' },
+    { imgUrl: 'sunbeds.png', desc: '300', title: 'Sunbeds' },
+    { imgUrl: 'umbrellas.png', desc: '350', title: 'Umbrellas' },
+  ];
 
   return (
     <div id='capacity' className='capacity_container'>
@@ -15,24 +23,9 @@ const Capacity = () => {
       </div>
       <div className='content_wrapper' data-aos='fade-up'>
         <div className='content'>
-          <img src='water.png' alt='/' />
-          <span className='num'>500m </span>
-          <span className='desc'>Beach</span>
-        </div>
-        <div className='content'>
-          <img src='parking.png' alt='/' />
-          <span className='num'>100</span>
-          <span className='desc'>Parking Spots</span>
-        </div>
-        <div className='content'>
-          <img src='sunbeds.png' alt='/' />
-          <span className='num'>300 </span>
-          <span className='desc'>Sunbeds </span>
-        </div>
-        <div className='content'>
-          <img src='umbrellas.png' alt='/' />
-          <span className='num'>350 </span>
-          <span className='desc'>Umbrellas</span>
+          {items.map((item) => (
+            <CapacityInfo imgUrl={item.imgUrl} desc={item.desc} title={item.title} />
+          ))}
         </div>
       </div>
     </div>
