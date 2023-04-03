@@ -19,8 +19,7 @@ const Footer = () => {
         <hr />
         <div className='footer_info'>
           <span className='city'>Dojran,Star Dojran</span>
-          <span className='number'>+389 112 1222</span>
-          <span className='email'>example@gmail.com</span>
+          <span className='number'>+389 77 954 273</span>
         </div>
         <hr />
         <div className='icons'>

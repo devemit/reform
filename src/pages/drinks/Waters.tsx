@@ -21,10 +21,6 @@ const Waters = (props: Props) => {
           <td>60ден/1€</td>
         </tr>
         <tr>
-          <td>Изворска/Izvorska</td>
-          <td>40ден/.7€</td>
-        </tr>
-        <tr>
           <td>Газирана вода/Mineral Water</td>
           <td>60ден/1€</td>
         </tr>

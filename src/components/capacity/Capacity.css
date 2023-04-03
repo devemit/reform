@@ -31,7 +31,7 @@
 }
 .content .num {
   color: var(--blue);
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .content .desc {
   color: var(--blue);
@@ -50,5 +50,8 @@
 @media (min-width: 900px) {
   .pro {
     margin: 1rem 6rem;
+  }
+  .content .num {
+    font-size: 3rem;
   }
 }

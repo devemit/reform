@@ -20,13 +20,13 @@
   color: white;
   padding: 2rem;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .footer_title {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 3rem;
+  font-size: clamp(1rem, 2.5vw, 3rem);
   text-transform: uppercase;
   color: var(--gold);
   padding: 1rem;
@@ -48,7 +48,7 @@
   cursor: pointer;
 }
 .footer_info span:hover {
-  font-weight: 800;
+  color: var(--blue);
 }
 .icons {
   display: flex;
@@ -64,15 +64,11 @@
 .icon:hover {
   transform: scale(1.1);
 }
-
 .copyright {
   position: absolute;
   z-index: 20;
   bottom: 0;
   color: var(--white);
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   z-index: -1;
-}
-.footer_btn:hover {
-  transform: scale(1.1);
 }

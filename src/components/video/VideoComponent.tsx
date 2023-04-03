@@ -9,7 +9,7 @@ const VideoComponent = () => {
       <div className='hero__container'>
         <video src='./video.mp4' autoPlay loop muted />
         <div className='arrow__wrapper'>
-          <Link to='capacity' spy={true} smooth={true} offset={-2} duration={800}>
+          <Link to='capacity' spy={true} smooth={true} offset={-10} duration={800}>
             <BsArrowDownShort className='arrow' size={36} />
           </Link>
         </div>

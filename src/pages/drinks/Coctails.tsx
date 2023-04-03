@@ -7,7 +7,7 @@ const Coctails = () => {
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
         <ButtonBack link={'/menu/drinks'} />
-        <DrinktsTitle label={'Пивo/Beers'} />
+        <DrinktsTitle label={'Coctails/Коктели'} />
       </div>
       <table>
         <tr>

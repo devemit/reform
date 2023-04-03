@@ -13,11 +13,13 @@ import Beers from './pages/drinks/Beers';
 import Wines from './pages/drinks/Wines';
 import Waters from './pages/drinks/Waters';
 import { Route, Routes } from 'react-router-dom';
+import ScrollToTop from './components/scrolltoTop';
 
 const App = () => {
   return (
     <>
       <MainHeader />
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<HomeLayout />} />
         <Route path='/gallery' element={<Gallery />} />
