@@ -1,9 +1,8 @@
 import ButtonBack from '../../components/ButtonBack/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import '../../styles/Table.css';
-type Props = {};
 
-const Waters = (props: Props) => {
+const Waters = () => {
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>

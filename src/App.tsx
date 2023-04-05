@@ -13,7 +13,7 @@ import Beers from './pages/drinks/Beers';
 import Wines from './pages/drinks/Wines';
 import Waters from './pages/drinks/Waters';
 import { Route, Routes } from 'react-router-dom';
-import ScrollToTop from './components/scrolltoTop';
+import ScrollToTop from './lib/scrollToTop';
 
 const App = () => {
   return (
