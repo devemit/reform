@@ -3,7 +3,7 @@ import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import '../../styles/Table.css';
 const Coffees = () => {
   return (
-    <>
+  
       <div className='table'>
         <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
           <ButtonBack  link={'/menu/drinks'} />
@@ -53,7 +53,7 @@ const Coffees = () => {
           </tr>
         </table>
       </div>
-    </>
+
   );
 };
 

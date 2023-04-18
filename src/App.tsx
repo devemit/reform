@@ -1,3 +1,4 @@
+import { Route, Routes } from 'react-router-dom';
 import MainHeader from './components/navbar/MainHeader';
 import Gallery from './pages/gallery/Gallery';
 import Menu from './pages/menu/Menu';
@@ -12,8 +13,15 @@ import Juices from './pages/drinks/Juices';
 import Beers from './pages/drinks/Beers';
 import Wines from './pages/drinks/Wines';
 import Waters from './pages/drinks/Waters';
-import { Route, Routes } from 'react-router-dom';
 import ScrollToTop from './lib/scrollToTop';
+import Breakfast from './pages/foods/Breakfast';
+import Pasta from './pages/foods/Pasta';
+import Toasts from './pages/foods/Toasts';
+import Burgers from './pages/foods/Burgers';
+import Rissoto from './pages/foods/Rissoto';
+import Salads from './pages/foods/Salads';
+import Sandwiches from './pages/foods/Sandwiches';
+import Deserts from './pages/foods/Deserts';
 
 const App = () => {
   return (
@@ -26,6 +34,14 @@ const App = () => {
         <Route path='/menu' element={<Menu />} />
         {/* foods */}
         <Route path='/menu/foods' element={<Foods />} />
+        <Route path='/menu/foods/breakfast' element={<Breakfast />} />
+        <Route path='/menu/foods/pasta' element={<Pasta />} />
+        <Route path='/menu/foods/toasts' element={<Toasts />} />
+        <Route path='/menu/foods/burgers' element={<Burgers />} />
+        <Route path='/menu/foods/rissoto' element={<Rissoto />} />
+        <Route path='/menu/foods/salads' element={<Salads />} />
+        <Route path='/menu/foods/sandwiches' element={<Sandwiches />} />
+        <Route path='/menu/foods/deserts' element={<Deserts />} />
         {/* foods end */}
         {/* ......... */}
         {/* drinks */}

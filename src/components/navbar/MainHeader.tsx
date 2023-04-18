@@ -23,10 +23,13 @@ const MainHeader = () => {
 
   return (
     <nav style={{ height: `${height}` }} className='navbar'>
-      <div className='navbar__title'>
-        <span className='main'>Reform</span>
-        <span className='sub'>Beach Bar</span>
-      </div>
+      <Link style={{ textDecoration: 'none' }} to={'/'}>
+        <div className='navbar__title'>
+          <span className='main'>Reform</span>
+          <span className='sub'>Beach Bar</span>
+        </div>
+      </Link>
+
       <div onClick={handleNav} className='toggle_buttons'>
         {nav ? <CgCloseR size={30} /> : <CgMenuBoxed size={35} />}
       </div>

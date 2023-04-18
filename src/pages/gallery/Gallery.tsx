@@ -20,7 +20,7 @@ const Gallery = () => {
     <>
       <div className='gallery_title'>
         <h1 className='gal_title'>
-          The Beach Bar Photo Gallery
+          Gallery
           <br />
           Coming soon...
         </h1>

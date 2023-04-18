@@ -1,13 +1,12 @@
 import ButtonBack from '../../components/ButtonBack/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
-import '../../styles/Table.css';
 
-const Beers = () => {
+export default function Breakfast() {
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
-        <ButtonBack link={'/menu/drinks'} />
-        <DrinktsTitle label={'Пивo/Beers'} />
+        <ButtonBack link={'/menu/foods'} />
+        <DrinktsTitle label={'Појадок/Breakfast'} />
       </div>
       <table>
         <tr>
@@ -38,6 +37,4 @@ const Beers = () => {
       </table>
     </div>
   );
-};
-
-export default Beers;
+}

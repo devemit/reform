@@ -17,6 +17,7 @@ const CardItem: React.FC<CardItemProps> = ({ title, img, link }) => {
         style={{ width: '100% ', height: '300px', objectFit: 'cover' }}
       />
       <br />
+
       <Link className='drinks-nav_btn' to={link}>
         {title}
       </Link>
