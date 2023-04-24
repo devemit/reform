@@ -1,6 +1,6 @@
 import ButtonBack from '../../components/ButtonBack/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
-
+import '../../styles/Table.css';
 export default function Breakfast() {
   return (
     <div className='table'>

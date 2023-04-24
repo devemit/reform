@@ -1,7 +1,6 @@
-import React from 'react';
 import ButtonBack from '../../components/ButtonBack/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
-
+import '../../styles/Table.css';
 export default function Deserts() {
   return (
     <div className='table'>

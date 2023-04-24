@@ -1,7 +1,7 @@
 import React from 'react';
 import ButtonBack from '../../components/ButtonBack/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
-
+import '../../styles/Table.css';
 export default function Toasts() {
   return (
     <div className='table'>
