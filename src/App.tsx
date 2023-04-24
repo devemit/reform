@@ -58,7 +58,8 @@ const App = () => {
         <Route path='/menu/drinks/alcohol' element={<Alcohol />} />
         {/* drinks end */}
       </Routes>
-      {/* <Footer /> */}
+      <QR />
+      <Footer />
     </>
   );
 };

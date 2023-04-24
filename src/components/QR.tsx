@@ -4,7 +4,7 @@ export default function QR() {
   return (
     <>
       <QRCode
-        style={{ padding: '2rem' }}
+        style={{ padding: '2rem', display: 'none' }}
         value='https://reformbeachbar.netlify.app'
         bgColor='white'
         fgColor='black'
