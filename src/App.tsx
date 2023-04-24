@@ -23,7 +23,7 @@ import Salads from './pages/foods/Salads';
 import Sandwiches from './pages/foods/Sandwiches';
 import Deserts from './pages/foods/Deserts';
 import Appetizers from './pages/foods/Appetizers';
-import QR from './components/QR';
+import QR from '../public/QR';
 
 const App = () => {
   return (
