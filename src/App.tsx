@@ -22,6 +22,8 @@ import Rissoto from './pages/foods/Rissoto';
 import Salads from './pages/foods/Salads';
 import Sandwiches from './pages/foods/Sandwiches';
 import Deserts from './pages/foods/Deserts';
+import Appetizers from './pages/foods/Appetizers';
+import QR from './components/QR';
 
 const App = () => {
   return (
@@ -35,6 +37,7 @@ const App = () => {
         {/* foods */}
         <Route path='/menu/foods' element={<Foods />} />
         <Route path='/menu/foods/breakfast' element={<Breakfast />} />
+        <Route path='/menu/foods/appetizers' element={<Appetizers />} />
         <Route path='/menu/foods/pasta' element={<Pasta />} />
         <Route path='/menu/foods/toasts' element={<Toasts />} />
         <Route path='/menu/foods/burgers' element={<Burgers />} />
@@ -55,7 +58,7 @@ const App = () => {
         <Route path='/menu/drinks/alcohol' element={<Alcohol />} />
         {/* drinks end */}
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
