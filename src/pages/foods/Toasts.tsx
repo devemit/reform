@@ -12,28 +12,53 @@ export default function Toasts() {
       <table>
         <tr>
           <th>Производ/Product</th>
-          <th>Состав/Ingredients</th>
           <th>Цена/Price</th>
         </tr>
 
         <tr>
-          <td>Шунка Кашкавал</td>
-          <td style={{ fontSize: '.9rem' }}>шунка,кашкавал,додаток по избор,лебче</td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Шунка Кашкавал
+              <br />
+              <span style={{ fontSize: '.7rem' }}>
+                шунка,кашкавал,додаток по избор,лебче
+              </span>
+            </td>
+          </div>
           <td>90ден/1.5€</td>
         </tr>
         <tr>
-          <td>Кулен Кашкавал</td>
-          <td style={{ fontSize: '.9rem' }}>кулен,кашкавал,додаток по избор,лебче</td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Кулен Кашкавал
+              <br />
+              <span style={{ fontSize: '.7rem' }}>
+                кулен,кашкавал,додаток по избор,лебче
+              </span>
+            </td>
+          </div>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Врат Кашкавал</td>
-          <td style={{ fontSize: '.9rem' }}>врат,кашкавал,додаток по избор,лебче</td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Врат Кашкавал
+              <br />
+              <span style={{ fontSize: '.7rem' }}>
+                врат,кашкавал,додаток по избор,лебче
+              </span>
+            </td>
+          </div>
           <td>100ден/1.7€</td>
         </tr>
         <tr>
-          <td>Помфрит Додаток</td>
-          <td style={{ fontSize: '.9rem' }}>помфрит</td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Помфрит Додаток
+              <br />
+              <span style={{ fontSize: '.7rem' }}>помфрит</span>
+            </td>
+          </div>
           <td>20ден/.4€</td>
         </tr>
       </table>

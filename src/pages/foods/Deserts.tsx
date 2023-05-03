@@ -11,19 +11,28 @@ export default function Deserts() {
       <table>
         <tr>
           <th>Производ/Product</th>
-          <th>Состав/Ingredients</th>
           <th>Цена/Price</th>
         </tr>
 
         <tr>
-          <td>Палачинка</td>
-          <td style={{ fontSize: '.9rem' }}>крем банана,мед,орево</td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Палачинка
+              <br />
+              <span style={{ fontSize: '.7rem' }}>крем банана,мед,орево</span>
+            </td>
+          </div>
           <td>110ден/1.9€</td>
         </tr>
 
         <tr>
-          <td>Сладолед Топка</td>
-          <td style={{ fontSize: '.9rem' }}>Сладолед</td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Сладолед Топка
+              <br />
+              <span style={{ fontSize: '.7rem' }}>Сладолед</span>
+            </td>
+          </div>
           <td>40ден/.7€</td>
         </tr>
       </table>

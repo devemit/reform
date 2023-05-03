@@ -1,6 +1,7 @@
 import ButtonBack from '../../components/ButtonBack/ButtonBack';
 import DrinktsTitle from '../../components/DrinksTitle/DrinktsTitle';
 import '../../styles/Table.css';
+
 export default function Breakfast() {
   return (
     <div className='table'>
@@ -11,30 +12,48 @@ export default function Breakfast() {
       <table>
         <tr>
           <th>Производ/Product</th>
-          <th>Состав/Ingredients</th>
           <th>Цена/Price</th>
         </tr>
 
         <tr>
-          <td>Реформ/Reform</td>
-          <td style={{ fontSize: '.9rem' }}>
-            јајца,едамер,печурки,домат,пршута,масло за јадење,оматен сос
-          </td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Реформ/Reform
+              <br />
+              <span style={{ fontSize: '.7rem' }}>
+                јајца,едамер,печурки,домат,пршута,
+                <br />
+                масло за јадење,оматен сос
+              </span>
+            </td>
+          </div>
           <td>130ден/2.2€</td>
         </tr>
         <tr>
-          <td>Омлет/Omelet</td>
-          <td style={{ fontSize: '.9rem' }}>
-            јајца,домат,краставичка,додаток по избор,шунка,кашкавал,печурки,масло за
-            јадење
-          </td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Омлет/Omelet
+              <span style={{ fontSize: '.7rem' }}>
+                <br />
+                јајца,домат,краставичка,додаток по избор,шунка,кашкавал,печурки,масло за
+                јадење
+              </span>
+            </td>
+          </div>
           <td>120ден/2€</td>
         </tr>
         <tr>
-          <td>Бруклин/Brooklyn</td>
-          <td style={{ fontSize: '.9rem' }}>
-            лебче,шунка,кашкавал,сланина,шампињони,домат,масло за јадење
-          </td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Бруклин/Brooklyn
+              <br />
+              <span style={{ fontSize: '.7rem' }}>
+                лебче,шунка,кашкавал,сланина,
+                <br />
+                шампињони, домат,масло за јадење
+              </span>
+            </td>
+          </div>
           <td>150ден/2.5€</td>
         </tr>
       </table>

@@ -12,34 +12,61 @@ export default function Sandwiches() {
       <table>
         <tr>
           <th>Производ/Product</th>
-          <th>Состав/Ingredients</th>
           <th>Цена/Price</th>
         </tr>
 
         <tr>
-          <td>Реформ Клуб</td>
-          <td style={{ fontSize: '.9rem' }}>
-            шунка,сланина,кашкавал,павлака,пармезан,домат,помфрит,леб
-          </td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Реформ Клуб
+              <br />
+              <span style={{ fontSize: '.7rem' }}>
+                шунка,сланина,кашкавал,павлака,
+                <br />
+                пармезан,домат,помфрит,леб
+              </span>
+            </td>
+          </div>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>Реформ Ројал</td>
-          <td style={{ fontSize: '.9rem' }}>
-            пилешки стек,едамер,татар сос,марула,домати,помфрит,корнишон лебче
-          </td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Реформ Ројал
+              <br />
+              <span style={{ fontSize: '.7rem' }}>
+                пилешки стек,едамер,татар сос,марула,домати,
+                <br />
+                помфрит,корнишон лебче
+              </span>
+            </td>
+          </div>
           <td>200ден/3.5€</td>
         </tr>
         <tr>
-          <td>Њујорк</td>
-          <td style={{ fontSize: '.9rem' }}>
-            печеница,едамер,павлака,салата,марула,помфрит,лебче
-          </td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Њујорк
+              <br />
+              <span style={{ fontSize: '.7rem' }}>
+                печеница,едамер,павлака,салата,
+                <br />
+                марула,помфрит,лебче
+              </span>
+            </td>
+          </div>
           <td>130ден/2.2€</td>
         </tr>
         <tr>
-          <td>Пеперони </td>
-          <td style={{ fontSize: '.9rem' }}>кулен,кашкавал,марула,домат,помфрит,лебче</td>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Пеперони
+              <br />
+              <span style={{ fontSize: '.7rem' }}>
+                кулен,кашкавал,марула, домат,помфрит,лебче
+              </span>
+            </td>
+          </div>
           <td>130ден/2.2€</td>
         </tr>
       </table>
