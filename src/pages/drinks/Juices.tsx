@@ -7,7 +7,7 @@ const Juices = (props: Props) => {
   return (
     <div className='table'>
       <div style={{ display: 'flex', padding: '1rem', alignItems: 'center' }}>
-        <ButtonBack link={'/menu/drinks'}  />
+        <ButtonBack link={'/menu/drinks'} />
         <DrinktsTitle label={'Сокови/Juices'} />
       </div>
       <table>
@@ -26,7 +26,7 @@ const Juices = (props: Props) => {
         </tr>
         <tr>
           <td>Швепс 0.250l/Schweppes</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <td>Спрајт 0.250l/Sprite</td>
@@ -34,19 +34,35 @@ const Juices = (props: Props) => {
         </tr>
         <tr>
           <td>Тоник 0.250l/Tonic</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <td>Џус 0.250l/Juice</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.7€</td>
         </tr>
         <tr>
           <td>Леден чај 0.250l/Ice Tea</td>
-          <td>90ден/1.5€</td>
+          <td>120ден/2€</td>
         </tr>
         <tr>
           <td>Цедевита 0.250l/Cedevita</td>
           <td>60ден/1€</td>
+        </tr>
+        <tr>
+          <td>Цеден Портокал/Fresh Orange Juice</td>
+          <td>120ден/2€</td>
+        </tr>
+        <tr>
+          <td>Цеден Микс/Fresh Mix Juice</td>
+          <td>150ден/2.5€</td>
+        </tr>
+        <tr>
+          <td>Лимонада/Lemonade</td>
+          <td>140ден/2.4€</td>
+        </tr>
+        <tr>
+          <td>Сода/Soda</td>
+          <td>120ден/2€</td>
         </tr>
       </table>
     </div>

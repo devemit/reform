@@ -13,7 +13,7 @@ const Capacity = () => {
     { imgUrl: 'water.png', desc: '500m', title: 'Beach' },
     { imgUrl: 'parking.png', desc: '100', title: 'Parking Spots' },
     { imgUrl: 'sunbeds.png', desc: '300', title: 'Sunbeds' },
-    { imgUrl: 'umbrellas.png', desc: '300', title: 'Umbrellas' },
+    { imgUrl: 'umbrellas.png', desc: '150', title: 'Umbrellas' },
   ];
 
   return (

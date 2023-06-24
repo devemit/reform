@@ -56,10 +56,20 @@ export default function Toasts() {
             <td>
               Помфрит Додаток
               <br />
-              <span style={{ fontSize: '.7rem' }}>помфрит</span>
+              <span style={{ fontSize: '.7rem' }}></span>
             </td>
           </div>
-          <td>20ден/.4€</td>
+          <td>30ден/.5€</td>
+        </tr>
+        <tr>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Порција Помфрит
+              <br />
+              <span style={{ fontSize: '.7rem' }}></span>
+            </td>
+          </div>
+          <td>120ден/2€</td>
         </tr>
       </table>
     </div>

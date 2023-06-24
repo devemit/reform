@@ -3,8 +3,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import EventsList from './EventsList';
 import { useEffect } from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Events = () => {
   useEffect(() => {
@@ -24,7 +22,7 @@ const Events = () => {
             moments of relaxation by the water, as well as endless fun at parties, events
             and live concerts featuring well-known artists.
           </p>
-          <LazyLoadImage effect='blur' src='wavehor.png' alt='/' className='wavehor' />
+          <img src='wavehor.png' alt='/' className='wavehor' />
         </div>
       </div>
       <EventsList />

@@ -26,7 +26,7 @@ export default function Appetizers() {
               </span>
             </td>
           </div>
-          <td>1000,500ден/16.5,8.5€</td>
+          <td>1000,500ден/16.5€,8.5€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>

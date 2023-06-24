@@ -17,9 +17,19 @@ export default function Deserts() {
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
             <td>
-              Палачинка
+              Палачинка Крем Банана
               <br />
-              <span style={{ fontSize: '.7rem' }}>крем банана,мед,орево</span>
+              <span style={{ fontSize: '.7rem' }}>крем банана</span>
+            </td>
+          </div>
+          <td>100ден/1.8€</td>
+        </tr>
+        <tr>
+          <div style={{ maxWidth: '190px', margin: 'auto' }}>
+            <td>
+              Палачинка Мед Ореви
+              <br />
+              <span style={{ fontSize: '.7rem' }}>мед,ореви</span>
             </td>
           </div>
           <td>110ден/1.9€</td>

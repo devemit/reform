@@ -25,7 +25,7 @@ const Burgers = () => {
               </span>
             </td>
           </div>
-          <td>150ден/2.5€</td>
+          <td>160ден/2.8€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>
@@ -53,7 +53,7 @@ const Burgers = () => {
               </span>
             </td>
           </div>
-          <td>150ден/2.5€</td>
+          <td>200ден/3.4€</td>
         </tr>
         <tr>
           <div style={{ maxWidth: '190px', margin: 'auto' }}>

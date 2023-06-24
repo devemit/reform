@@ -35,7 +35,7 @@ const Alcohol = () => {
         </tr>
         <tr>
           <td>Џин Сах/Gin Sax</td>
-          <td>80ден/1.5€</td>
+          <td>80ден/1.4€</td>
         </tr>
         <tr>
           <td>Гордонс/Gordons</td>
@@ -43,15 +43,15 @@ const Alcohol = () => {
         </tr>
         <tr>
           <td>Бакарди/Bacardi</td>
-          <td>100ден/1.7€</td>
+          <td>120ден/2€</td>
         </tr>
         <tr>
           <td>Мартини/Martini</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.6€</td>
         </tr>
         <tr>
           <td>Текила/Tequila</td>
-          <td>100ден/1.7€</td>
+          <td>150ден/2.5€</td>
         </tr>
         <tr>
           <td>Узо/Ouzo</td>
@@ -59,7 +59,7 @@ const Alcohol = () => {
         </tr>
         <tr>
           <td>Мастика/Mastika</td>
-          <td>70ден/1.2€</td>
+          <td>80ден/1.4€</td>
         </tr>
         <tr>
           <td>Арчерс/Archers</td>
@@ -83,11 +83,11 @@ const Alcohol = () => {
         </tr>
         <tr>
           <td>Шток/Stock</td>
-          <td>90ден/1.5€</td>
+          <td>100ден/1.6€</td>
         </tr>
         <tr>
           <td>Рум/Rum</td>
-          <td>90ден/1.5€</td>
+          <td>70ден/1.2€</td>
         </tr>
         <tr>
           <td>Кампари/Campari</td>
@@ -95,15 +95,15 @@ const Alcohol = () => {
         </tr>
         <tr>
           <td>Малибу/Malibu</td>
-          <td>120ден/2€</td>
+          <td>100ден/1.6€</td>
         </tr>
         <tr>
           <td>Пелинковац/Pelinkovac</td>
-          <td>70ден/1.2€</td>
+          <td>80ден/1.4€</td>
         </tr>
         <tr>
           <td>Јегермаестер/Jagermeister</td>
-          <td>100ден/1.7€</td>
+          <td>140ден/2.4€</td>
         </tr>
         <tr>
           <td>Шејкер/Shaker</td>
@@ -114,12 +114,36 @@ const Alcohol = () => {
           <td>120ден/2€</td>
         </tr>
         <tr>
+          <td>Џони вокер блек/Johnny Walker black</td>
+          <td>250ден/4.3€</td>
+        </tr>
+        <tr>
           <td>Балантајс/Ballantine's</td>
           <td>120ден/2€</td>
         </tr>
         <tr>
           <td>Џек Даниелс/Jack Daniels</td>
           <td>250ден/4.5€</td>
+        </tr>
+        <tr>
+          <td>Кати Сарк/Cutty Sark</td>
+          <td>150ден/2.5€</td>
+        </tr>
+        <tr>
+          <td>Чивас/Chivas</td>
+          <td>250ден/4.3€</td>
+        </tr>
+        <tr>
+          <td>Џејмисон/Jameson</td>
+          <td>150ден/2.5€</td>
+        </tr>
+        <tr>
+          <td>ЏБ/JB</td>
+          <td>120ден/2€</td>
+        </tr>
+        <tr>
+          <td>Фејмос Грус/Famous Grouse</td>
+          <td>150ден/2.5€</td>
         </tr>
       </table>
     </div>
