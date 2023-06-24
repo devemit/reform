@@ -45,8 +45,6 @@ const App = () => {
         <Route path='/menu/foods/salads' element={<Salads />} />
         <Route path='/menu/foods/sandwiches' element={<Sandwiches />} />
         <Route path='/menu/foods/deserts' element={<Deserts />} />
-        {/* foods end */}
-        {/* ......... */}
         {/* drinks */}
         <Route path='/menu/drinks' element={<Drinks />} />
         <Route path='/menu/drinks/coffees' element={<Coffees />} />
@@ -56,8 +54,8 @@ const App = () => {
         <Route path='/menu/drinks/juices' element={<Juices />} />
         <Route path='/menu/drinks/coctails' element={<Coctails />} />
         <Route path='/menu/drinks/alcohol' element={<Alcohol />} />
-        {/* drinks end */}
       </Routes>
+      {/* qr component */}
       <QR />
       <Footer />
     </>
