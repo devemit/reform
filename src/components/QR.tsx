@@ -4,8 +4,8 @@ export default function QR() {
   return (
     <>
       <QRCode
-        style={{ padding: '2rem', display: 'none' }}
-        value='reformdojran.vercel.app/menu'
+        style={{ padding: '2rem' }}
+        value={'https://reformdojran.vercel.app/menu'}
         bgColor='white'
         fgColor='black'
         size={500}
